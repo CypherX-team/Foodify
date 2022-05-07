@@ -450,15 +450,54 @@ h1,h2,h3{
     float: right;
     height: 100%;
     width: 50%;
+    border-left: 2px solid black;
+}
+
+.section-donate .right-section .text-box .description{
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .section-donate .right-section .text-box{
-    border: 2px solid black;
-    margin: 20px;
+    margin-top: 20px;
+    padding-left: 30px;
 }
 
 .section-donate .right-section  .text-box  textarea{
     width: 95%;
-    height: 30vh;
+    height: 35vh;
     margin-left: 20px;
+    margin-bottom: 40px;
+    padding: 10px;
 }
+
+
+.section-donate .right-section .button .btn{
+    margin-left: 35%;
+    border: 2px solid black;
+}
+
+.section-donate::after{
+    content: " ";
+    display: block;
+    float: clear;
+}
+
+
+.map-section .form label{
+    display: block;
+}
+
+.map-section .form input{
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.map-section .form .form-group{
+    margin-bottom: 1.2rem;
+}
+
+
+
+
+

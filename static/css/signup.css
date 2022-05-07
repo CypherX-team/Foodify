@@ -5,7 +5,7 @@
 }
 
 body {
-	background: antiquewhite;
+	background: rgb(144, 147, 142);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -22,6 +22,7 @@ h1 {
 
 h2 {
 	text-align: center;
+	font-size: 25px;
 }
 
 p {
@@ -45,8 +46,8 @@ a {
 
 button {
 	border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF416C;
+	border: 1px solid #71ac41;
+	background-color: #71ac41;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -58,8 +59,8 @@ button {
 
 input.ghost {
 	border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF416C;
+	border: 1px solid #71ac41;
+	background-color: #71ac41;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -83,7 +84,7 @@ button.ghost {
 }
 
 form {
-	background-color: antiquewhite;
+	background-color: rgb(154, 186, 241);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -173,8 +174,8 @@ input {
 
 .overlay {
 	background: #FF416C;
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background: -webkit-linear-gradient(to right, #ace57d, #597742);
+	background: linear-gradient(to right, #ace57d, #597742);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
