@@ -28,16 +28,17 @@
   </ol>
 
 # Tech Stack
-<OL>
-  <LH>---> FRONTEND</LH>
-   <LI> HTML</LI>
-    <LI> CSS </LI>
-    <LI> Vanilla Javascript</LI>
-    <LH>---> BACKEND</LH>
-    <LI> Python</LI>
-    <LI> Django</LI>
-    <LH>---> TOOLS</LH>
-    <LI> VS Code (for coding and editing)
-    <LI> Git (for version control)
-    <LI> Github (for cloud storage and deployment)
-    </OL>
+
+
+  ## FRONTEND
+    HTML 
+    CSS
+    Vanilla Javascript
+  ## BACKEND
+    Python
+    Django
+  ## TOOLS
+    VS Code (for coding and editing)
+    Git (for version control)
+    Github (for git provider and collaboration)
+    
