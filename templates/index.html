@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="\static\css\style1.css">
     <script src="https://kit.fontawesome.com/f589bee7d1.js" crossorigin="anonymous"></script>
-    <title>foodify</title>
+    <title>Foodify</title>
 </head>
 <body>
     <header class="header">
@@ -15,18 +15,19 @@
                 <img src="\static\img\logo.jpeg" alt="this is logo image">
             </div>
             <ul class="nav-items">
-                <li class="nav-item"><a href="\templates\about.html">Who we are</a></li>
-                <li class="nav-item"><a href="\templates\index.html">Home</a></li>
-                <li class="nav-item"><a href="\templates\contact.html">Contact</a></li>
-                <li class="nav-item btn btn-primary text-red"><a href="\templates\signup.html">login</a></li>
+                <li class="nav-item"><a href={% url 'about' %}>Who we are</a></li>
+                <li class="nav-item"><a href={% url 'index' %}>Home</a></li>
+                <li class="nav-item"><a href={% url 'contact' %}>Contact</a></li>
+                <li class="nav-item btn btn-primary text-red"><a href="signup.html">login</a></li>
             </ul>
         </nav>
 
         <div class="header-content">
             <h1 class="main-heading lg-heading text-light">Food everywhere</h1>
             <p class="text-light">food is the need and right of everyone.</p>
-            <a href="\templates\donate.html" class="btn btn-primary text-red">Donate</a>
-            <a href="\templates\recieve.html" class="btn btn-primary text-red">Recieve</a>
+            <a href="/signup/index.html" class="btn btn-primary text-red">Donate</a>
+            <a href="/signup/index.html" class="btn btn-primary text-red">Recieve</a>
+            
         </div>
         
     </header>
@@ -50,7 +51,7 @@
                 <div class="text-box">
                     <h2 class = 'lg-heading text-black'>What is Foodify?</h2>
                     <P class="text-grey">  Foodify is the website created in order to lessen the food wastage. This will help to connect the manager/owner of banquet to the NGOs who further can distribute this food to the people in need. </P>
-                    <a href = "./about.html" class="btn text-red btn-secondary">More</a>
+                    <a href = "/about.html" class="btn text-red btn-secondary">More</a>
                 </div>
             </div>
             <div class="row row2">
@@ -60,20 +61,21 @@
                 <div class="text-box">
                     <h2 class = 'lg-heading text-black'>Why Foodify?</h2>
                     <P class="text-grey">There have been a lot of surveys conducted which proved after an event, there's a lot of food left which ultimately gets dumped.Our aim is to connect the owner/manager of banquet halls where such food is left to the NGOs who tend to distribute this food to the needy people.</P>
-                    <a  href = "./about.html"  class="btn  text-red  btn-secondary">MORE</a>
+                    <a  href = "/about.html"  class="btn  text-red  btn-secondary">MORE</a>
                 </div>
             </div>
         </div>
+
     </section>
 
     <footer class="footer">
         <div class="social-media-links">
-            <a href="https://facebook.com" ><i class="fab fa-facebook fa-3x"></i></a>
-            <a href="https://twitter.com" ><i class="fab fa-twitter fa-3x"></i></a>
-            <a href="https://instagram.com"><i class="fab fa-instagram fa-3x"></i></a>
-            <a href="https://github.com/CypherX-team/Foodify"><i class="fab fa-brands fa-github fa-3x"></i></a>
+            <a href="#" ><i class="fab fa-facebook fa-3x"></i></a>
+            <a href="#" ><i class="fab fa-twitter fa-3x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+            <a href="#"><i class="fab fa-brands fa-github fa-3x"></i></a>
         </div>
-        <p>foofify &copy; 2022, All Rights Reserved</p>        
+        <p>Foodify &copy; 2022, All Rights Reserved.</p>        
 </footer>
 </body>
 </html>
