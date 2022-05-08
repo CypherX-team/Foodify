@@ -15,10 +15,10 @@
                 <img src="\static\img\logo.jpeg" alt="this is logo image">
             </div>
             <ul class="nav-items">
-                <li class="nav-item"><a href="\templates\about.html">Who we are</a></li>
-                <li class="nav-item"><a href="\templates\index.html">Home</a></li>
-                <li class="nav-item"><a href="\templates\contact.html">Contact</a></li>
-                <li class="nav-item btn btn-primary text-red"><a href="\templates\signup.html">login</a></li>
+                <li class="nav-item"><a href={% url 'about' %}>Who we are</a></li>
+                <li class="nav-item"><a href={% url 'index' %}>Home</a></li>
+                <li class="nav-item"><a href={% url 'contact' %}>Contact</a></li>
+                <li class="nav-item btn btn-primary text-red"><a href="signup.html">login</a></li>
             </ul>
         </nav>   
     </header>
