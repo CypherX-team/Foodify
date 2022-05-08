@@ -13,8 +13,8 @@ def contact(request):
 def donate(request):
     return render(request, 'donate.html')
 
-def receive(request):
-    return render(request, 'receive.html')
+def recieve(request):
+    return render(request, 'recieve.html')
 
 def signup(request):
     return render(request, 'signup.html')
